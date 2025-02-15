@@ -6,8 +6,12 @@
 }
 
 #video1 {
-    text-align: center;;
+    text-align: center;
+}
 
+#video1 video {
+    width: 200px;
+    height: 350px;
 }
 
 #btn1 {
@@ -32,11 +36,6 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    video {
-        width: 200px;
-        height: 400px;
-    }
-}
+
 
 
