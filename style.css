@@ -6,7 +6,8 @@
 }
 
 #video1 {
-    text-align: center;
+    text-align: center;;
+
 }
 
 #btn1 {
@@ -29,6 +30,13 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 250px;
+        height: 450px;
+    }
 }
 
 
